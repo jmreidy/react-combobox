@@ -3,10 +3,13 @@ react-autocomplete (combobox)
 
 [WAI-ARIA][wai-aria] accessible [React][react] autocomplete component (combobox).
 
+This implementation is almost entirely derived from [rpflorence/react-autocomplete], but has
+changed enough to earn its own repo. But it's totally a WIP and shouldn't be used for production yet.
+
 Installation
 ------------
 
-`npm install react-autocomplete`
+`npm install react-combobox`
 
 WIP
 ---
@@ -26,7 +29,7 @@ Usage
 var Autocomplete = require('react-autocomplete');
 
 // its actually called a combobox, but noboby searches for that
-var Combobox = Autocomplete.Combobox; 
+var Combobox = Autocomplete.Combobox;
 var Option = Autocomplete.Option;
 
 var comboboxinItUp = (
@@ -58,7 +61,7 @@ var comboboxinItUp = (
     // `autocomplete` defaults to 'both'. 'inline' will autocomplete the
     // first matched Option into the input value, 'list' will display a
     // list of choices, and of course, both does both.
- 
+
     // When this option is selected, `onSelect` will be called with the
     // value `"foo"`.
     <Option value="foo">Foo</Option>
