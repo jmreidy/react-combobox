@@ -3,7 +3,7 @@ react-autocomplete (combobox)
 
 [WAI-ARIA][wai-aria] accessible [React][react] autocomplete component (combobox).
 
-This implementation is almost entirely derived from [rpflorence/react-autocomplete], but has
+This implementation is almost entirely derived from [rpflorence/react-autocomplete](https://github.com/rpflorence/react-autocomplete), but has
 changed enough to earn its own repo. But it's totally a WIP and shouldn't be used for production yet.
 
 Installation
