@@ -1,3 +1,5 @@
+[![NPM version](https://badge.fury.io/js/react-combobox.svg)](http://badge.fury.io/js/react-combobox) [![Build Status](https://travis-ci.org/jmreidy/react-combobox.svg?branch=master)](https://travis-ci.org/jmreidy/react-combobox) [![Sauce Test Status](https://saucelabs.com/buildstatus/rzrsharp_oss)](https://saucelabs.com/u/rzrsharp_oss) [![david-dm-status-badge](https://david-dm.org/jmreidy/react-combobox.svg)](https://david-dm.org/jmreidy/react-combobox#info=dependencies&view=table)
+ [![david-dm-status-badge](https://david-dm.org/jmreidy/react-combobox/dev-status.svg)](https://david-dm.org/jmreidy/react-combobox#info=devDependencies&view=table)
 react-autocomplete (combobox)
 =============================
 
