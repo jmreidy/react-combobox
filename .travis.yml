@@ -1,7 +1,8 @@
 language: node_js
 node_js:
-  - "0.10"
+  - '0.10'
 env:
+  - secure: L19J1MK2QozeGRMc0hpuv9W776K6H9l8v7zh8EW8aJ0BnFZe9Sps4HUS5jm+t4WM5wea1QJ9Zp5dSjTJnfi4JIbItWM/LVnkxMmoB/ZETnELhWga5fysPLSUWO/wCLXfdanLDpp2hgLj0EfxaK8IcIJVOb8dS6iCmmOd8ShqosA=
   - NODE_ENV=ci
 before_script:
   - export DISPLAY=:99.0
