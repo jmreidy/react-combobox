@@ -67,7 +67,6 @@ module.exports = function (config) {
 
   if (process.env.NODE_ENV === 'ci') {
     config.set(_.extend(baseConfig, {
-      autoWatch: false,
       browsers: Object.keys(customLaunchers),
       reports: ['spec', 'saucelabs'],
       singleRun: true,
