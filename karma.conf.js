@@ -1,3 +1,5 @@
+var proxyquire = require('proxyquireify');
+
 module.exports = function (config) {
   var customLaunchers = {
     sl_chrome: {
@@ -33,31 +35,31 @@ module.exports = function (config) {
     frameworks: [
       'mocha',
       'chai',
+      'sinon',
+      'browserify'
     ],
 
     files: [
-      'test/option.test.js',
-      'test/combobox.test.js'
     ],
 
     exclude: [],
 
-    webpack: {
-      loaders: [
-        {test: /.js$/, loader: 'jsx-loader'}
-      ]
+    browserify: {
+      files: [
+        'test/*.test.js'
+      ],
+      transform: ['reactify'],
+      plugin: [proxyquire.plugin]
     },
 
     preprocessors: {
-      'test/*': [
-        'webpack'
-      ]
+      '/**/*.browserify': 'browserify'
     },
 
 
     reporters: ['spec'],
 
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_DEBUG,
 
     colors: true,
 
